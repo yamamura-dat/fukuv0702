@@ -16,5 +16,15 @@ namespace fukuv0702
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Text = "あああああああああああ";
+        }
     }
 }
